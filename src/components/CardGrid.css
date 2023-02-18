@@ -1,0 +1,43 @@
+.card-block {
+    background-color: #fff;
+    box-shadow: 10px 0px 35px #0000003d;
+    padding: 15px;
+    /* width: 290px; */
+}
+
+.image-container {
+    width: 120px;
+    height: 120px;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.image-title {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.image-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container img {
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.footer-block p {
+    font-size: 14px;
+    color: #369ce0;
+}

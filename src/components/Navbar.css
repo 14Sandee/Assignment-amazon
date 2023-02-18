@@ -1,0 +1,70 @@
+.header {
+    background-color: #131921;
+    display: flex;
+}
+
+.first-block {
+    display: flex;
+    align-items: center;
+}
+
+.second-block {
+    flex: 1;
+}
+
+.location-block {
+    display: flex;
+    align-items: flex-end;
+}
+
+.yellow {
+    background-color: #febd69;
+}
+
+.search-block {
+    display: flex;
+}
+
+.search-btn {
+    border: none;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 0.5rem;
+}
+
+.input-select {
+    height: 40px;
+    border: none;
+    padding: 0 0.5rem;
+    background-color: #eae8e8;
+}
+
+.search-input {
+    height: 38px;
+    border: none;
+    flex: 1;
+}
+
+.third-block {
+    display: flex;
+    align-items: center;
+}
+
+.cart-block {
+    display: flex;
+    align-items: flex-end;
+}
+
+.lang-select {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+
+}
