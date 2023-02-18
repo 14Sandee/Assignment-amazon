@@ -12,7 +12,14 @@
     margin-top: -300px;
 }
 
-.overlay {}
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, hsla(0, 0%, 0%, 0.4) 0%, hsla(0, 0%, 0%, 0.3) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 .prime-block {
     position: relative;
@@ -64,6 +71,8 @@
 }
 
 .prime-abs {
+    position: relative;
+    z-index: 1;
     width: 100%;
     height: 100%;
     display: flex;
